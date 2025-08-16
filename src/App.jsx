@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -16,7 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1 className='text-green-400 text-8xl'>Vite + React</h1>
+      <h1 className="text-green-400 text-8xl">Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -28,9 +28,11 @@ function App() {
       <p className="read-the-docs text-red-500 text-3xl">
         Click on the Vite and React logos to learn more
       </p>
-      <p className='text-red-600 font-extrabold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, odio tempore, culpa, in necessitatibus veritatis nostrum dolorem dolor commodi ducimus aperiam? Consequatur repudiandae quo itaque qui nisi illum nihil earum!</p>
+      <p className="text-red-600 font-medium text-7xl">
+        Just Refresh the page, If you are unable to see storyBook
+      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
